@@ -34,4 +34,10 @@ public class Customer {
     public String getEmail() {
         return email;
     }
+
+    public void printCustomer() {
+        System.out.println("Name: " + name + "\n" +
+                            "Credit limit: " + creditLimit + "\n" +
+                            "Email: " + email);
+    }
 }
